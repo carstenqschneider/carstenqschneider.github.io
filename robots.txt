@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://carstenqschneider.github.io/sitemap.xml
