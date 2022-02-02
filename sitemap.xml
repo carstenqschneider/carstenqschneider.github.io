@@ -4,25 +4,23 @@
   
   
   <url>
-    <loc>https://carstenqschneider.github.io/courses/example/python/</loc><lastmod>2021-01-01T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc>https://carstenqschneider.github.io/courses/example/visualization/</loc><lastmod>2021-01-01T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc>https://carstenqschneider.github.io/courses/example/stats/</loc><lastmod>2021-01-01T00:00:00+00:00</lastmod></url>
-  <url>
     <loc>https://carstenqschneider.github.io/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod></url>
   <url>
     <loc>https://carstenqschneider.github.io/talk/example-talk/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod></url>
   <url>
     <loc>https://carstenqschneider.github.io/event/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://carstenqschneider.github.io/courses/</loc><lastmod>2021-01-24T00:00:00+00:00</lastmod></url>
+    <loc>https://carstenqschneider.github.io/software/mdscosa/</loc><lastmod>2021-12-23T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://carstenqschneider.github.io/courses/example/</loc><lastmod>2021-01-24T00:00:00+00:00</lastmod></url>
+    <loc>https://carstenqschneider.github.io/outreach/</loc><lastmod>2021-12-23T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://carstenqschneider.github.io/software/setmethods/</loc><lastmod>2021-12-23T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://carstenqschneider.github.io/software/</loc><lastmod>2021-12-23T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://carstenqschneider.github.io/courses/</loc><lastmod>2021-12-23T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://carstenqschneider.github.io/tag/academic/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc>https://carstenqschneider.github.io/author/alice-bighetti-%E5%90%B3%E6%81%A9%E9%81%94/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://carstenqschneider.github.io/authors/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod></url>
   <url>
@@ -31,6 +29,8 @@
     <loc>https://carstenqschneider.github.io/category/demo/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://carstenqschneider.github.io/post/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://carstenqschneider.github.io/author/prof.-dr.-carsten-q.-schneider/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://carstenqschneider.github.io/tags/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod></url>
   <url>
@@ -41,6 +41,16 @@
     <loc>https://carstenqschneider.github.io/tag/%E5%BC%80%E6%BA%90/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://carstenqschneider.github.io/category/%E6%95%99%E7%A8%8B/</loc><lastmod>2020-12-13T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://carstenqschneider.github.io/post/2020-12-01-r-rmarkdown/</loc><lastmod>2020-12-01T21:13:14-05:00</lastmod></url>
+  <url>
+    <loc>https://carstenqschneider.github.io/tag/plot/</loc><lastmod>2020-12-01T21:13:14-05:00</lastmod></url>
+  <url>
+    <loc>https://carstenqschneider.github.io/category/r/</loc><lastmod>2020-12-01T21:13:14-05:00</lastmod></url>
+  <url>
+    <loc>https://carstenqschneider.github.io/tag/r-markdown/</loc><lastmod>2020-12-01T21:13:14-05:00</lastmod></url>
+  <url>
+    <loc>https://carstenqschneider.github.io/tag/regression/</loc><lastmod>2020-12-01T21:13:14-05:00</lastmod></url>
   <url>
     <loc>https://carstenqschneider.github.io/post/writing-technical-content/</loc><lastmod>2019-07-12T00:00:00+00:00</lastmod></url>
   <url>
@@ -59,10 +69,6 @@
     <loc>https://carstenqschneider.github.io/slides/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://carstenqschneider.github.io/slides/example/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc>https://carstenqschneider.github.io/privacy/</loc><lastmod>2018-06-28T00:00:00+01:00</lastmod></url>
-  <url>
-    <loc>https://carstenqschneider.github.io/terms/</loc><lastmod>2018-06-28T00:00:00+01:00</lastmod></url>
   <url>
     <loc>https://carstenqschneider.github.io/tag/deep-learning/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod></url>
   <url>

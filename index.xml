@@ -13,101 +13,6 @@
     </image>
     
     <item>
-      <title>Python basics</title>
-      <link>https://carstenqschneider.github.io/courses/example/python/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://carstenqschneider.github.io/courses/example/python/</guid>
-      <description>&lt;p&gt;Build a foundation in Python.&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
-&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/rfscVS0vtbw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
-  &lt;summary&gt;What is the difference between lists and tuples?&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;Lists&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Lists are mutable - they can be changed&lt;/li&gt;
-&lt;li&gt;Slower than tuples&lt;/li&gt;
-&lt;li&gt;Syntax: &lt;code&gt;a_list = [1, 2.0, &#39;Hello world&#39;]&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Tuples&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Tuples are immutable - they can&amp;rsquo;t be changed&lt;/li&gt;
-&lt;li&gt;Tuples are faster than lists&lt;/li&gt;
-&lt;li&gt;Syntax: &lt;code&gt;a_tuple = (1, 2.0, &#39;Hello world&#39;)&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
-  &lt;summary&gt;Is Python case-sensitive?&lt;/summary&gt;
-  &lt;p&gt;Yes&lt;/p&gt;
-&lt;/details&gt;</description>
-    </item>
-    
-    <item>
-      <title>Visualization</title>
-      <link>https://carstenqschneider.github.io/courses/example/visualization/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://carstenqschneider.github.io/courses/example/visualization/</guid>
-      <description>&lt;p&gt;Learn how to visualize data with Plotly.&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
-&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/hSPmj7mK6ng&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
-  &lt;summary&gt;When is a heatmap useful?&lt;/summary&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
-  &lt;summary&gt;Write Plotly code to render a bar chart&lt;/summary&gt;
-  &lt;p&gt;&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import plotly.express as px
-data_canada = px.data.gapminder().query(&amp;quot;country == &#39;Canada&#39;&amp;quot;)
-fig = px.bar(data_canada, x=&#39;year&#39;, y=&#39;pop&#39;)
-fig.show()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/p&gt;
-&lt;/details&gt;</description>
-    </item>
-    
-    <item>
-      <title>Statistics</title>
-      <link>https://carstenqschneider.github.io/courses/example/stats/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://carstenqschneider.github.io/courses/example/stats/</guid>
-      <description>&lt;p&gt;Introduction to statistics for data science.&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
-&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
-&lt;p&gt;The general form of the &lt;strong&gt;normal&lt;/strong&gt; probability density function is:&lt;/p&gt;
-&lt;p&gt;$$
-f(x) = \frac{1}{\sigma \sqrt{2\pi} } e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2}
-$$&lt;/p&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    The parameter $\mu$ is the mean or expectation of the distribution.
-$\sigma$ is its standard deviation.
-The variance of the distribution is $\sigma^{2}$.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
-  &lt;summary&gt;What is the parameter $\mu$?&lt;/summary&gt;
-  &lt;p&gt;The parameter $\mu$ is the mean or expectation of the distribution.&lt;/p&gt;
-&lt;/details&gt;</description>
-    </item>
-    
-    <item>
       <title>Example Talk</title>
       <link>https://carstenqschneider.github.io/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
@@ -124,6 +29,122 @@ The variance of the distribution is $\sigma^{2}$.
 &lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Outreach publications and blog posts</title>
+      <link>https://carstenqschneider.github.io/outreach/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://carstenqschneider.github.io/outreach/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Ioana-Elena Oana. 2021. Covid-19: spur or restraint to citizen engagement?. &lt;a href=&#34;https://euideas.eui.eu/2021/09/23/covid-19-spur-or-restraint-to-citizen-engagement/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EUIdeas Blog post.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hanspeter Kriesi and Ioana-Elena Oana. 2021. Transnational and domestic conflicts in asylum policies: preferences among the European publics. &lt;a href=&#34;https://blogs.eui.eu/migrationpolicycentre/author/hanspeter-kriesi-and-ioana-elena-oana/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Migration Policy Center Blog post.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ioana-Elena Oana and Hanspeter Kriesi. 2020. Report on Coronavirus Survey in Italy: First Two Waves. EUI European Governance and Politics Programme. &lt;a href=&#34;http://europeangovernanceandpolitics.eui.eu/projects/solid/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Online Research Report&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ioana-Elena Oana and Hanspeter Kriesi. 2020. Report on Coronavirus Survey in Italy: Comparison of First Three Waves. EUI European Governance and Politics Programme. &lt;a href=&#34;http://europeangovernanceandpolitics.eui.eu/projects/solid/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Online Research Report&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Thomann, Eva, Ioana-Elena Oana, and Stefan Wittwer. 2018. &lt;a href=&#34;http://www.evathomann.com/links/qca-r-manual.&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Performing fuzzy and crisp set QCA with R: A user-oriented beginner&amp;rsquo;s guide.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://carstenqschneider.github.io/courses/</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://carstenqschneider.github.io/courses/</guid>
+      <description>&lt;h2 id=&#34;graduate-and-phd-level-courses-and-workshops&#34;&gt;Graduate and PhD Level courses and workshops&lt;/h2&gt;
+&lt;h3 id=&#34;2021&#34;&gt;2021&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Institute for Qualitative and Multi-Method Research, Maxwell School, Syracuse University. &lt;strong&gt;Course:&lt;/strong&gt; &lt;em&gt;Qualitative Comparative Analysis with R&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;IPSA-FLACSO Mexico Summer School. &lt;strong&gt;Course:&lt;/strong&gt; &lt;em&gt;Qualitative Comparative Analysis with R&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ECPR Virtual Methods School. &lt;strong&gt;Course:&lt;/strong&gt; &lt;em&gt;Qualitative Comparative Analysis with R&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ECPR Virtual Methods School. &lt;strong&gt;Course:&lt;/strong&gt; &lt;em&gt;Advanced Qualitative Comparative Analysis&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2020&#34;&gt;2020&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ECPR Virtual Methods School. &lt;strong&gt;Course:&lt;/strong&gt; &lt;em&gt;Qualitative Comparative Analysis with R&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ECPR Virtual Methods School. &lt;strong&gt;Course:&lt;/strong&gt; &lt;em&gt;Advanced Qualitative Comparative Analysis&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2019&#34;&gt;2019&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ECPR Summer School in Methods and Techniques. &lt;strong&gt;Seasoned Scholar Workshops:&lt;/strong&gt; &lt;em&gt;Quantitative Methods - selected topics&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ECPR Summer School in Methods and Techniques. &lt;strong&gt;Course:&lt;/strong&gt; &lt;em&gt;Introduction to Case-Based Research&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ECPR Summer School in Methods and Techniques. &lt;strong&gt;Course:&lt;/strong&gt; &lt;em&gt;Qualitative Comparative Analysis with R&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Antwerp Management School. &lt;strong&gt;Workshop:&lt;/strong&gt; &lt;em&gt;Intermediate QCA&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;University of Hesinki. &lt;strong&gt;Workshop:&lt;/strong&gt; &lt;em&gt;R for QCA&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2018&#34;&gt;2018&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;University of Exeter Q-Step Centre. &lt;strong&gt;Workshop:&lt;/strong&gt; &lt;em&gt;Introduction to Qualitative Comparative Analysis&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;European University Institute. &lt;strong&gt;Course:&lt;/strong&gt; &lt;em&gt;Qualitative Comparative Analysis (QCA) with R&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;West University of Timisoara. &lt;strong&gt;Workshop:&lt;/strong&gt; &lt;em&gt;Introduction to QCA in R&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Lund University. &lt;strong&gt;Workshop:&lt;/strong&gt; &lt;em&gt;Introduction to QCA in R&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ECPR Summer School in Methods and Techniques. &lt;strong&gt;Course:&lt;/strong&gt; &lt;em&gt;Qualitative Comparative Analysis and Fuzzy-Sets&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ECPR Summer School in Methods and Techniques. &lt;strong&gt;Seasoned Scholar Workshops:&lt;/strong&gt; &lt;em&gt;Qualitative and Multi-Method Research - Selected Topics&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2013-2017&#34;&gt;2013-2017&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ECPR Winter School in Methods and Techniques (Teaching Assistant):
+&lt;ul&gt;
+&lt;li&gt;Advanced Topics in Set-Theoretic Methods and QCA
+&lt;ul&gt;
+&lt;li&gt;4 courses&lt;/li&gt;
+&lt;li&gt;included teaching Introduction to R and teaching lab seminars in R&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Qualitative Comparative Analysis and Fuzzy-Sets
+&lt;ul&gt;
+&lt;li&gt;5 courses&lt;/li&gt;
+&lt;li&gt;included teaching Introduction to R and teaching lab seminars in R&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -205,6 +226,57 @@ The variance of the distribution is $\sigma^{2}$.
     </item>
     
     <item>
+      <title>Hello R Markdown</title>
+      <link>https://carstenqschneider.github.io/post/2020-12-01-r-rmarkdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      <guid>https://carstenqschneider.github.io/post/2020-12-01-r-rmarkdown/</guid>
+      <description>
+&lt;script src=&#34;https://carstenqschneider.github.io/post/2020-12-01-r-rmarkdown/index.en_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;R Markdown&lt;/h1&gt;
+&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &amp;lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Including Plots&lt;/h1&gt;
+&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
+  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
+  init.angle = -50, border = NA
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span style=&#34;display:block;&#34; id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://carstenqschneider.github.io/post/2020-12-01-r-rmarkdown/index.en_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: A fancy pie chart.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Writing technical content in Academic</title>
       <link>https://carstenqschneider.github.io/post/writing-technical-content/</link>
       <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
@@ -232,7 +304,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-265194783&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-963457128&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -242,7 +314,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-265194783&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-963457128&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -672,24 +744,6 @@ $$&lt;/p&gt;
 &lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Privacy Policy</title>
-      <link>https://carstenqschneider.github.io/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>https://carstenqschneider.github.io/privacy/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Terms</title>
-      <link>https://carstenqschneider.github.io/terms/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>https://carstenqschneider.github.io/terms/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
